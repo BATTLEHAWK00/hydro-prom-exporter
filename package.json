@@ -1,0 +1,16 @@
+{
+  "name": "hydro-prom-exporter",
+  "version": "1.0.1",
+  "main": "package.json",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-basic-auth": "^4.0.0",
+    "prom-client": "^13.2.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-basic-auth": "^2.0.4",
+    "@types/node": "^16.9.1"
+  }
+}
