@@ -1,0 +1,20 @@
+auth_name:
+  type: text
+  name: Auth Username
+  desc: basic auth username while requesting metrics
+  default: auth
+auth_password:
+  type: password
+  name: Auth Password
+  desc: basic auth password while requesting metrics
+  default: password
+listen_port:
+  type: number
+  name: Listen Port
+  desc: The port listening for metrics
+  default: 9999
+collect_rate:
+  type: number
+  name: Collect Rate
+  desc: The collect rate scale (default:1)
+  default: 1
