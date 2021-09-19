@@ -1,8 +1,11 @@
 {
   "name": "hydro-prom-exporter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "package.json",
-  "license": "AGPL-3.0-or-later",
+  "description": "Prometheus exporter plugin for Hydro online judge platform",
+  "author": "battlehawk <154075059@qq.com>",
+  "repository": "https://github.com/BATTLEHAWK00/hydro-prom-exporter.git",
+  "license": "Unlicense",
   "dependencies": {
     "koa": "^2.13.1",
     "koa-basic-auth": "^4.0.0",
